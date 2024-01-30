@@ -9,27 +9,51 @@
 
 <body>
     <form action="">
-        <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-        </div>
+        <fieldset>
+            <legend>Grouping</legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name" readonly>
+            </div>
 
-        <div>
-            <label for="age">Age</label>
-            <input type="number" id="age" name="age">
-        </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age">
+            </div>
 
-        <!-- Below ,  -->
+            <!-- Below ,  -->
 
-        <div>
-            <label for="userOption">User Option</label>
-            <select name="userOption" id="userOption">
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-            </select>
-        </div>
-        <br>
+            <div>
+                <label for="userOption">User Option</label>
+                <select name="userOption" id="userOption">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <label for="">Gender</label>
+                <label for="">Female</label>
+                <input type="radio" name="gender" checked>
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+
+
+            </div>
+
+
+            <br>
+
+        </fieldset>
+        <input list="countries">
+
+        <datalist id="countries">
+            <option value="Qatar">
+            <option value="Iran">
+            <option value="Oman">
+            <option value="Bahrain">
+        </datalist>
         <input type="submit">
     </form>
 </body>

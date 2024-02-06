@@ -1,0 +1,71 @@
+ /* h1 {
+     background-color: red;
+     color: white;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     margin-right: 80px;
+     margin-left: 80px;
+
+     padding-top: 80px;
+     padding-bottom: 70px;
+     padding-right: 40px;
+     padding-left: 40px; 
+
+     padding : 80px; 
+     padding: 80px 60px 70px 40px;
+
+     padding: 80px 80px 70px;
+
+     outline: 10px solid black;
+     margin-bottom: 20px;
+
+ }
+
+ h2 {
+     background-color: gray;
+     color: white;
+     padding: 10px;
+ } 
+
+ */
+
+ /* Universal Selector */
+ /* 
+ * {
+     margin: 0;
+     padding: 0;
+ } */
+
+ /* type selector [element selector] */
+ /* header {
+     background-color: red;
+     color: white;
+ } */
+
+ /* Class Selector */
+ /* #article1 {
+     color: aqua;
+ } */
+
+ /* .new-article {
+     margin: 10px;
+     color: blue;
+ }
+
+ #article1 {
+     border: 10px solid;
+ } */
+
+ /* footer p {
+     border: 1px solid red;
+ }
+
+ main article p {
+     background-color: gray;
+     color: white;
+ } */
+
+ h2~article {
+     background-color: black;
+     color: white;
+ }

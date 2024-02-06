@@ -65,7 +65,83 @@
      color: white;
  } */
 
- h2~article {
+ /* Any Sibiling */
+ /* h2~article {
      background-color: black;
+     color: white;
+ } */
+
+ /* Direct */
+ /* h2+article {
+     background-color: red;
+     color: white;
+ } */
+ /* OR */
+ /* h1,
+ h2 {
+     background-color: red;
+     color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-transform: capitalize;
+     text-align: center;
+ } */
+
+ /* AND */
+
+
+ /* div.new-article {
+     background-color: aqua;
+ } */
+
+ /* input[type=email] {
+     background-color: beige;
+ } */
+
+ /* Pseudo Elements and Classes */
+
+ /* h2::before {
+     content: "< ";
+     background-color: red;
+ }
+
+ h2::after {
+     content: "> ";
+     background-color: red;
+ } */
+
+ nav li {
+     list-style: none;
+ }
+
+ nav a {
+     text-decoration: none;
+ }
+
+ /*
+
+ nav li:hover {
+     background-color: beige;
+
+ }
+
+ input:focus {
+     background-color: red;
+     color: white;
+ }
+
+ input:required {
+     background-color: rgb(179, 122, 48);
+ } */
+
+ /* li:nth-child(2n-1) {
+     background-color: red;
+ }
+
+ li:nth-child(3) {
+     background-color: green;
+ } */
+
+ article:not(.new-article) {
+     background-color: blue;
      color: white;
  }

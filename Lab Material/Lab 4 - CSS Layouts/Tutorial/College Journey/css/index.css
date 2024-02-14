@@ -132,3 +132,37 @@ footer {
     color: white;
     padding: 1rem;
 }
+
+/* bigger screens */
+
+@media screen and (min-width:20rem) {
+    header {
+        display: flex;
+        justify-content: space-between;
+
+        .main-menu ul {
+            display: flex;
+
+            li:not(:last-child)::after {
+                content: "|";
+                padding-left: 0.2rem;
+            }
+        }
+    }
+
+    .headline {
+        display: flex;
+        align-items: center;
+    }
+
+    .abroad-images {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .abroad-images img {
+        width: 100px;
+        margin: 10px;
+        flex: 1;
+    }
+}

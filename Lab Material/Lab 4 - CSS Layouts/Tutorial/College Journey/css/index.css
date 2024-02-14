@@ -86,7 +86,12 @@ main {
                         background-color: brown;
                         color: white;
 
-                        
+                    }
+
+                    th,
+                    td {
+                        padding: 0.25rem;
+                        border: 1px red solid;
                     }
                 }
 

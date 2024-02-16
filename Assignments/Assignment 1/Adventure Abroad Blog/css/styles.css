@@ -1,0 +1,19 @@
+/* Reset and basic styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 160;
+}
+
+body {
+    /* font-family: 'Arial', sans-serif; */
+    width: 90%;
+    margin: auto;
+}
+
+/* continue here */
+
+
+/* handle different screen sizes */

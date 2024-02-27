@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* variable declaration */
+:root {
+    --light-textColor: white;
+    --dark-textColor: black;
+    --header-bgColor: blue;
+    --nav-bgColor: green;
+    --main-bgColor: red;
+    --footer-bgColor: yellow;
+}
+
+body {
+    color: white;
+}
+
+.header {
+    background-color: var(--header-bgColor)
+}
+
+.nav {
+    background-color: var(--nav-bgColor);
+}
+
+.main {
+    background-color: var(--main-bgColor);
+}
+
+.footer {
+    background-color: var(--footer-bgColor);
+    color: var(--dark-textColor);
+}

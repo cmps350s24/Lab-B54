@@ -1,0 +1,16 @@
+{
+  "name": "partb-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js",
+    "run": "node app.js"
+  },
+  "author": "Abdulahi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}

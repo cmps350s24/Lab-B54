@@ -1,4 +1,4 @@
-function convertFromUSToQAR(amount) {
+export function convertFromUSToQAR(amount) {
     return amount * 3.64;
 }
 

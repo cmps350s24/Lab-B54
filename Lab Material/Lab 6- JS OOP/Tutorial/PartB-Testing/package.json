@@ -12,5 +12,6 @@
   "dependencies": {
     "chai": "^5.1.0",
     "mocha": "^10.3.0"
-  }
+  },
+  "type": "module"
 }

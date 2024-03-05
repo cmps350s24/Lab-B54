@@ -1,1 +1,2 @@
-console.log("Hello welcome to JS");
+import { convertFromUSToQAR } from './repo/bank.js'
+console.log(convertFromUSToQAR(1));

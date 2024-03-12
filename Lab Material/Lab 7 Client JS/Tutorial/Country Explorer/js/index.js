@@ -12,13 +12,26 @@ const countryBaseURL = 'https://restcountries.com/v3.1/name/'
 regionDD.addEventListener('change', handleRegionChange)
 countryDD.addEventListener('change', handleCountryChange)
 
+const countries = []
+
 async function handleRegionChange() {
-    const url = `${regionBaseURL}${regionDD.value}`
-    const data = await fetch(url) //suspends the function until it is resolved
-    const countries = await data.json()
+
+    if (!localStorage[regionDD.value]) {
+        const url = `${regionBaseURL}${regionDD.value}`
+        const data = await fetch(url) //suspends the function until it is resolved
+        countries = await data.json()
+        localStorage[regionDD.value] = JSON.stringify(countries)
+
+    } else
+        countries = JSON.parse(localStorage[regionDD.value])
+
+    // save to local storage
+    countries.sort((a, b) => a.name.common.localeCompare(b.name.common))
     countryDD.innerHTML = countries
         .map(country => `<option value='${country.name.common}'>${country.name.common}</option>`)
         .join(' ')
+
+    handleCountryChange()
 }
 
 async function handleCountryChange() {
@@ -58,3 +71,20 @@ function convertCountryToFactsHTML(country) {
         </table>
     `
 }
+
+// const localStorage = {}
+
+// localStorage.name = "Abdulahi"
+// localStorage.age = 100
+
+// console.log(localStorage.name);
+// console.log(Object.keys(localStorage));
+
+// delete localStorage.name
+// console.log(Object.keys(localStorage));
+
+// if (localStorage.name) {
+//     console.log("Name exists");
+// }else{
+//     console.log("Name does not exist");
+// }

@@ -8,6 +8,12 @@ export default class AccountsRepo {
         this.path = path.join(process.cwd(), 'app/data/accounts.json')
         console.log(this.path);
     }
+    // This can be used if we want to generate a unique account number, but the account no should be a number
+    // otherwise use nano id which generates a unique id but string 
+    async generateUniqueAccountNo() {
+        const accounts = await this.getAccounts()
+        return Math.max(...accounts.map(account => account.accountNo)(...accountNumbers)) + 1
+    }
 
     async getAccounts(type) {
         const accounts = await fs.readJSON(this.path)
@@ -26,12 +32,12 @@ export default class AccountsRepo {
         return account
     }
 
-    async updateAccount(account) {
+    async updateAccount(account, accountNo) {
         const accounts = await fs.readJson(this.path)
-        const index = accounts.findIndex(acc => acc.accountNo == account.accountNo)
+        const index = accounts.findIndex(acc => acc.accountNo == accountNo)
         console.log(index);
         if (index >= 0) {
-            accounts[index] = account
+            accounts[index] = { ...accounts[index], ...account }
             await fs.writeJson(this.path, accounts)
             return "updated successfully"
         }
@@ -40,28 +46,49 @@ export default class AccountsRepo {
 
     async getAccount(accNo) {
         const accounts = await fs.readJson(this.path)
-        const account = accounts.find(acc => acc.accountNo == accNo)
-        return account
+        const index = accounts.findIndex(acc => acc.accountNo == accNo)
+        if (index >= 0) {
+            return accounts[index]
+        }
+        return "Account not found"
     }
 
     async deleteAccount(accNo) {
         const accounts = await fs.readJson(this.path)
-        const filteredAccounts = accounts.filter(acc => acc.accountNo != accNo)
-        await fs.writeJson(this.path, filteredAccounts)
+        const index = accounts.findIndex(acc => acc.accountNo == accNo)
+        if (index < 0) return "Account not found"
+
+        accounts.splice(index, 1)
+        await fs.writeJson(this.path, accounts)
         return "deleted successfully"
     }
-    async addTransaction(transaction) {
-        transaction.accountNo = parseInt(transaction.accountNo.toString());
+    async getTransactions(accountNo) {
+        const accounts = await this.getAccounts();
+        const account = accounts.find(account => account.accountNo == accountNo);
+        if (!account)
+            return "Account not found";
+
+        else if (!account.transactions)
+            return "No transactions found";
+
+        return account.transactions;
+    }
+    async addTransaction(transaction, accountNo) {
+        console.log('I was called');
+        transaction.accountNo = accountNo
         transaction.amount = parseInt(transaction.amount.toString());
         try {
             const accounts = await this.getAccounts();
-            const account = accounts.find(account => account.accountNo == transaction.accountNo);
-            if (transaction.transType == 'Deposit') {
-                account.deposit(transaction.amount);
-            } else {
-                account.withdraw(transaction.amount);
-            }
-            return await fs.writeJson(filePath, accounts)
+            const account = accounts.find(account => account.accountNo == accountNo);
+            if (transaction.transType == 'Deposit')
+                account.balance += transaction.amount;
+            else if (transaction.transType == 'Withdraw')
+                if (account.balance < transaction.amount)
+                    return "Insufficient balance";
+                else
+                    account.balance -= transaction.amount;
+            await fs.writeJSON(this.path, accounts)
+            return account
         } catch (err) {
             throw err;
         }

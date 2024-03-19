@@ -13,7 +13,7 @@ class AccountRepo {
     }
 
     async deleteAccount(accountNo) {
-        return await fetch(`baseUrl${accountNo}`, { method: 'delete' });
+        return await fetch(`${baseUrl}${accountNo}`, { method: 'delete' });
     }
 
     async addAccount(account) {
@@ -35,7 +35,7 @@ class AccountRepo {
     }
 
     async addTrans(trans) {
-        const url = `${baseUrl}${trans.accountNo}/trans`
+        const url = `${baseUrl}${trans.accountNo}/transactions`
         await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

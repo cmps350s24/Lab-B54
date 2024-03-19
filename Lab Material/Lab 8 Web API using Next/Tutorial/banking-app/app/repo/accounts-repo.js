@@ -31,7 +31,7 @@ export default class AccountsRepo {
         const index = accounts.findIndex(acc => acc.accountNo == accountNo)
         console.log(index);
         if (index >= 0) {
-            accounts[index] = account
+            accounts[index] = { ...accounts[index], ...account }
             await fs.writeJson(this.path, accounts)
             return "updated successfully"
         }

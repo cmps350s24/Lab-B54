@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraryLocus</title>
+</head>
+
+<body>
+    <h1 class="page-title">LibraryLocus</h1>
+    <hr>
+
+    <form class="book-form hidden" id="book-form">
+        <input type="text" id="_id" name="_id" hidden>
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title">
+        <label for="isbn">ISBN</label>
+        <input type="text" id="isbn" name="isbn">
+        <label for="pageCount">Page Count</label>
+        <input type="text" id="pageCount" name="pageCount">
+        <label for="publishedDate">Published Date</label>
+        <input type="date" id="publishedDate" name="publishedDate">
+        <label for="thumbnailUrl">Thumbnail URL</label>
+        <input type="text" id="thumbnailUrl" name="thumbnailUrl">
+        <label for="shortDescription">Short Description</label>
+        <textarea id="shortDescription" name="shortDescription"></textarea>
+        <label for="longDescription">Long Description</label>
+        <textarea id="longDescription" name="longDescription" rows="10"></textarea>
+        <label for="status">Status</label>
+        <select id="status" name="status">
+            <option value="PUBLISH">PUBLISH</option>
+            <option value="DRAFT">DRAFT</option>
+        </select>
+        <label for="authors">Authors</label>
+        <input type="text" id="authors" name="authors">
+        <label for="categories">Categories</label>
+        <input type="text" id="categories" name="categories">
+        <div class="form-btns">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Cancel" id="cancel">
+        </div>
+    </form>
+    <button class="add-btn" id="add-book">Add New Book</button>
+    <div id="book-search" class="book-search">
+        <input type=" text" id="search" placeholder="Search by Title or Author">
+        <!-- <button class="search-btn">Search</button> -->
+    </div>
+    <div id="books-list" class="book-list"></div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

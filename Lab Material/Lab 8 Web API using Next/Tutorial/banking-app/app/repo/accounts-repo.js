@@ -26,9 +26,9 @@ export default class AccountsRepo {
         return account
     }
 
-    async updateAccount(account) {
+    async updateAccount(account, accountNo) {
         const accounts = await fs.readJson(this.path)
-        const index = accounts.findIndex(acc => acc.accountNo == account.accountNo)
+        const index = accounts.findIndex(acc => acc.accountNo == accountNo)
         console.log(index);
         if (index >= 0) {
             accounts[index] = account

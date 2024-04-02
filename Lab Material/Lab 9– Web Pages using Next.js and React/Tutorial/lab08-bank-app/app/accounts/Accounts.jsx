@@ -1,19 +1,18 @@
 'use client'
-import React from 'react'
+import { React, useState } from 'react'
 import Account from './Account'
 import styles from '@/app/page.module.css'
 
-// /api/accounts ? type = "All"
-// /api/accounts ? type = "Saving"
-// /api/accounts ? type = "Current"
-
-async function handleLoadAccounts(e) {
-    const response = await fetch(`/api/accounts?type=${e.target.value}`)
-    const filteredAccounts = await response.json()
-    console.log(filteredAccounts);
-}
 
 export default function Accounts({ initialAccounts }) {
+
+    const [accounts, setAccounts] = useState(initialAccounts)
+
+    async function handleLoadAccounts(e) {
+        const response = await fetch(`/api/accounts?type=${e.target.value}`)
+        const filteredAccounts = await response.json()
+        setAccounts(filteredAccounts)
+    }
 
     return <>
         <h1>Accounts</h1>
@@ -38,7 +37,7 @@ export default function Accounts({ initialAccounts }) {
             </thead>
             <tbody>
                 {
-                    initialAccounts.map(account => <Account account={account}></Account>)
+                    accounts.map(account => <Account account={account}></Account>)
                 }
             </tbody>
         </table>

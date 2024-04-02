@@ -1,3 +1,4 @@
+import NavBar from './components/NavBar'
 import './globals.css'
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
       </head>
       <body>
+        <NavBar />
         {children}
       </body>
     </html>

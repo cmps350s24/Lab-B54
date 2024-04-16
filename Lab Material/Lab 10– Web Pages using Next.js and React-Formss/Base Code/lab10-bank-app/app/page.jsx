@@ -9,8 +9,6 @@ export default async function Home() {
   // we will get the data
   // const accounts = 
   return (
-    <Accounts
-      initialAccounts={accounts}>
-      </Accounts>
+    <Accounts initialAccounts={accounts}> </Accounts>
   )
 }

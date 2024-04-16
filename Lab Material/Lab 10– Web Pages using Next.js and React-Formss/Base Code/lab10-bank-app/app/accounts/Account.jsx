@@ -15,20 +15,13 @@ export default function Account({ account, onDelete }) {
             <td>{account.dateOpened}</td>
             <td>
                 {account.balance >= 0 ?
-                    <button onClick={e => onDelete(account.accountNo)} className={styles.btnDelete}>
+                    <button className={styles.btnDelete}>
                         <i class="fas fa-trash">Delete</i>
                     </button> : ''}
-                <Link href={
-                    {
-                        pathname: "/accounts/edit",
-                        query: account
-                    }
-                }
-                >
-                    <button className={styles.btnEdit}>
-                        <i className="fas fa-edit">Edit</i>
-                    </button>
-                </Link>
+
+                <button className={styles.btnEdit}>
+                    <i className="fas fa-edit">Edit</i>
+                </button>
             </td>
         </tr>
     )

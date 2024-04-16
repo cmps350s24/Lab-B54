@@ -1,0 +1,205 @@
+/* Form styling */
+form {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1em;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c9e6ff;
+    margin: 1em auto 0 auto;
+    box-sizing: border-box;
+    font-size: 1rem;
+
+    select,
+    input {
+        border: 1px solid #c9e6ff;
+        padding: 0.7em;
+        margin-bottom: 0.5rem;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+
+    button {
+        border: none;
+        padding: 1em;
+        background: #0069ed;
+        color: #ffffff;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    button:hover,
+    button:focus {
+        background: #0053ba;
+        outline: none;
+    }
+
+    button:active {
+        transform: scale(0.99);
+    }
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+    place-self: end;
+}
+
+select:focus,
+input:focus {
+    outline: 2px solid royalblue;
+}
+
+/* Rest of the CSS remains the same */
+
+select:focus,
+input:focus {
+    outline: 2px solid royalblue;
+}
+
+nav ul {
+    display: flex;
+
+    li:first-child {
+        flex: 1;
+    }
+
+    li {
+        display: inline;
+        padding: 5px;
+        text-align: left;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    li a:hover {
+        color: rgb(221, 1, 1);
+        text-decoration: overline;
+    }
+
+    li.selected a {
+        color: dodgerblue;
+        text-decoration: overline;
+    }
+}
+
+h3 {
+    text-align: center;
+}
+
+/* table styling */
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+
+    td,
+    th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: rgba(172, 6, 6);
+        color: white;
+    }
+
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #0069ed;
+        color: white;
+    }
+}
+
+.btn-delete,
+.btn-edit {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
+
+.filter-dropdown {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 50%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('arrow.png'),
+        linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+@media screen and (max-width : 750px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    label {
+        place-self: start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    tr:first-child {
+        display: none;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

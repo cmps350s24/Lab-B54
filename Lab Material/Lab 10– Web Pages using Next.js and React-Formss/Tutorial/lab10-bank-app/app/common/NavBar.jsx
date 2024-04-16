@@ -11,7 +11,7 @@ export default function NavBar() {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/accounts/add">Add Account</Link>
+                    <Link href="/accounts/upsert">Add Account</Link>
                 </li>
                 <li>
                     <Link href="/accounts/transaction">Add Transaction</Link>

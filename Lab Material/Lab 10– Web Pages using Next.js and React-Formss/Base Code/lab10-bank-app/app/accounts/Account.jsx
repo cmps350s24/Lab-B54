@@ -1,21 +1,7 @@
 import React from 'react'
 import styles from '@/app/page.module.css'
 import Link from 'next/link'
-export default function Account({ account }) {
-
-    async function handleDeleteAccount(accountNo) {
-        const confirmed = confirm(`Are you sure you want to delete account No ${accountNo}`)
-        if (confirmed) {
-            // call the API to delete the account
-            const response = await fetch(`/api/accounts/${accountNo}`, {
-                method: 'DELETE'
-            })
-            const message = await response.json()
-            alert(JSON.stringify(message))
-
-        }
-    }
-
+export default function Account({ account, onDelete }) {
     return (
         <tr id="row-${acct.accountNo}">
             <td><img src={account.profileImage} alt="Profile Image" className={styles.profilePic} /></td>
@@ -30,7 +16,7 @@ export default function Account({ account }) {
             <td>
                 {account.balance >= 0 ?
                     <button className={styles.btnDelete}
-                        onClick={e => handleDeleteAccount(account.accountNo)}>
+                        onClick={e => onDelete(account.accountNo)}>
                         <i class="fas fa-trash">Delete</i>
                     </button> : ''}
 

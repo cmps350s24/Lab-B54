@@ -1,7 +1,14 @@
 import React from 'react'
 import styles from '@/app/page.module.css'
 import Link from 'next/link'
-export default function Account({ account, onDelete }) {
+export default function Account({ account }) {
+
+    async function handleDeleteAccount(accountNo) {
+        const confirmed = confirm(`Are you sure you want to delete account No ${accountNo}`)
+        if (confirmed)
+            alert('Deleted Account')
+    }
+
     return (
         <tr id="row-${acct.accountNo}">
             <td><img src={account.profileImage} alt="Profile Image" className={styles.profilePic} /></td>
@@ -15,7 +22,8 @@ export default function Account({ account, onDelete }) {
             <td>{account.dateOpened}</td>
             <td>
                 {account.balance >= 0 ?
-                    <button className={styles.btnDelete}>
+                    <button className={styles.btnDelete}
+                        onClick={e => handleDeleteAccount(account.accountNo)}>
                         <i class="fas fa-trash">Delete</i>
                     </button> : ''}
 

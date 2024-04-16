@@ -5,8 +5,15 @@ export default function Account({ account }) {
 
     async function handleDeleteAccount(accountNo) {
         const confirmed = confirm(`Are you sure you want to delete account No ${accountNo}`)
-        if (confirmed)
-            alert('Deleted Account')
+        if (confirmed) {
+            // call the API to delete the account
+            const response = await fetch(`/api/accounts/${accountNo}`, {
+                method: 'DELETE'
+            })
+            const message = await response.json()
+            alert(JSON.stringify(message))
+
+        }
     }
 
     return (

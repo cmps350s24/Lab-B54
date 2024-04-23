@@ -1,0 +1,44 @@
+[
+    {
+        "accountNo": "AC7766",
+        "transType": "Deposit",
+        "amount": 20000,
+        "transId": 1,
+        "date": "2022-04-15T00:00:00.000Z"
+    },
+    {
+        "accountNo": "AC5544",
+        "transType": "Deposit",
+        "amount": 1200,
+        "transId": 2,
+        "date": "2022-07-21T00:00:00.000Z"
+    },
+    {
+        "accountNo": "AC3322",
+        "transType": "Deposit",
+        "amount": 1200,
+        "transId": 3,
+        "date": "2023-01-09T00:00:00.000Z"
+    },
+    {
+        "accountNo": "AC3322",
+        "transType": "Deposit",
+        "amount": 88,
+        "transId": 4,
+        "date": "2023-05-20T00:00:00.000Z"
+    },
+    {
+        "accountNo": "AC3322",
+        "transType": "Deposit",
+        "amount": 88,
+        "transId": 5,
+        "date": "2023-10-31T00:00:00.000Z"
+    },
+    {
+        "accountNo": "AC7766",
+        "transType": "Deposit",
+        "amount": 88,
+        "transId": 6,
+        "date": "2024-03-18T00:00:00.000Z"
+    }
+]

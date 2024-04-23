@@ -1,0 +1,38 @@
+[
+    {
+        "accountNo": "AC7766",
+        "transType": "Deposit",
+        "amount": 20000,
+        "transId": 1
+    },
+    {
+        "accountNo": "AC5544",
+        "transType": "Deposit",
+        "amount": 1200,
+        "transId": 2
+    },
+    {
+        "accountNo": "AC3322",
+        "transType": "Deposit",
+        "amount": 1200,
+        "transId": 3
+    },
+    {
+        "accountNo": "AC3322",
+        "transType": "Deposit",
+        "amount": 88,
+        "transId": 4
+    },
+    {
+        "accountNo": "AC3322",
+        "transType": "Deposit",
+        "amount": 88,
+        "transId": 5
+    },
+    {
+        "accountNo": "AC7766",
+        "transType": "Deposit",
+        "amount": 88,
+        "transId": 6
+    }
+]

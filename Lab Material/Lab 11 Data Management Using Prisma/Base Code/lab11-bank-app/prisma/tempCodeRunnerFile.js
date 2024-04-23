@@ -1,0 +1,1 @@
+    for (const transaction of transactions) await prisma.transaction.create({ data: transaction })

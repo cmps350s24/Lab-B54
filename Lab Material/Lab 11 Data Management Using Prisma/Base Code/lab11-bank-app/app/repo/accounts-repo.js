@@ -46,7 +46,6 @@ class AccountsRepo {
 
     }
 
-
 }
 
 export default new AccountsRepo()

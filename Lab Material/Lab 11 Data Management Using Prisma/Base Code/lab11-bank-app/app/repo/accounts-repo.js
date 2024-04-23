@@ -11,7 +11,15 @@ class AccountsRepo {
 
     }
     async addAccount(account) {
+        prisma.account.create({
+            data: account
+        })
+    }
 
+    async addOwner(owner) {
+        prisma.owner.create({
+            data: owner
+        })
     }
 
     async updateAccount(accountNo, account) {

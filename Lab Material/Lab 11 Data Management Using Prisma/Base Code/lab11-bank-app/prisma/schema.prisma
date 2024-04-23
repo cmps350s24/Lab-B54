@@ -5,18 +5,23 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator dbml {
+  provider = "prisma-dbml-generator"
+}
+
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
 model Owner {
-  id           String @id @default(cuid())
+  id           String    @id @default(cuid())
   firstname    String
   lastname     String
   email        String
   gender       String
   profileImage String
+  accounts     Account[]
 }
 
 model Account {
@@ -24,12 +29,20 @@ model Account {
   acctType   String
   balance    Float
   dateOpened DateTime @default(now())
-  ownerId    String
+
+  Owner   Owner  @relation(fields: [ownerId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  ownerId String
+
+  transactions Transaction[]
 }
 
 model Transaction {
   transId   Int    @id @default(autoincrement())
   transType String
   amount    Float
+
+  Account   Account @relation(fields: [accountNo], references: [accountNo], onDelete: Cascade, onUpdate: Cascade)
   accountNo String
 }
+
+//  npx prisma format

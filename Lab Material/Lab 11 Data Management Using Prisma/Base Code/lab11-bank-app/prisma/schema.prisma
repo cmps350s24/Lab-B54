@@ -18,10 +18,18 @@ model Owner {
   gender       String
   profileImage String
 }
+
 model Account {
-      accountNo String
-      transType String
-      amount Float
-      transId Int
-      date DateTime
+  accountNo  String   @id @default(cuid())
+  acctType   String
+  balance    Float
+  dateOpened DateTime @default(now())
+  ownerId    String
+}
+
+model Transaction {
+  transId   Int    @id @default(autoincrement())
+  transType String
+  amount    Float
+  accountNo String
 }

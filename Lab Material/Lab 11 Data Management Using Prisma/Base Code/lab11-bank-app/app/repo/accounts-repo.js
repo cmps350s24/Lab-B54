@@ -1,25 +1,16 @@
-import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
-
 class AccountsRepo {
 
-    async getOwners() {
+    async addOwner(owner) {
 
+    }
+    async getOwners() {
 
     }
     async getAccounts(acctType) {
 
     }
     async addAccount(account) {
-        prisma.account.create({
-            data: account
-        })
-    }
 
-    async addOwner(owner) {
-        prisma.owner.create({
-            data: owner
-        })
     }
 
     async updateAccount(accountNo, account) {
@@ -45,6 +36,7 @@ class AccountsRepo {
         transaction.amount = parseInt(transaction.amount.toString());
 
     }
+
 
 }
 

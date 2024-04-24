@@ -13,7 +13,7 @@ class BooksRepo {
             throw new Error("Invalid book name");
         }
         const books = await this.getBooks();
-        return books.find(book => book.title.toLowerCase().includes(bookName.toLowerCase()));
+        return books.filter(book => book.title.toLowerCase().includes(bookName.toLowerCase()));
     }
 
     async addBook(book) {

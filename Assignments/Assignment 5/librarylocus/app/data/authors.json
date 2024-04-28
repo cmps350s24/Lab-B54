@@ -1,0 +1,627 @@
+[
+    {
+        "authorId": "auth06a05b",
+        "firstName": "Alexandre",
+        "lastName": "Alves"
+    },
+    {
+        "authorId": "authdb6017",
+        "firstName": "Christian",
+        "lastName": "Bauer"
+    },
+    {
+        "authorId": "auth1bfa00",
+        "firstName": "Clinton",
+        "lastName": "Begin"
+    },
+    {
+        "authorId": "auth5ff7ca",
+        "firstName": "Emmanuel",
+        "lastName": "Bernard"
+    },
+    {
+        "authorId": "auth464e07",
+        "firstName": "David",
+        "lastName": "Sean Taylor"
+    },
+    {
+        "authorId": "authc13e13",
+        "firstName": "Paul",
+        "lastName": "S. Randal"
+    },
+    {
+        "authorId": "authdb0c61",
+        "firstName": "Daniele",
+        "lastName": "Bochicchio"
+    },
+    {
+        "authorId": "auth20f1ae",
+        "firstName": "Anthony",
+        "lastName": "Williams"
+    },
+    {
+        "authorId": "auth5447aa",
+        "firstName": "Christopher",
+        "lastName": "Allen"
+    },
+    {
+        "authorId": "authe03653",
+        "firstName": "Chad",
+        "lastName": "A. Campbell"
+    },
+    {
+        "authorId": "authc7201f",
+        "firstName": "Naomi",
+        "lastName": "R. Ceder"
+    },
+    {
+        "authorId": "auth4ffe35",
+        "firstName": "Robert",
+        "lastName": "I. Kabacoff"
+    },
+    {
+        "authorId": "auth33ddeb",
+        "firstName": "Arnaud",
+        "lastName": "Cogoluegnes"
+    },
+    {
+        "authorId": "authe4310b",
+        "firstName": "Rob",
+        "lastName": "Crowther"
+    },
+    {
+        "authorId": "auth97c8e6",
+        "firstName": "Dan",
+        "lastName": "Allen"
+    },
+    {
+        "authorId": "auth7e9999",
+        "firstName": "Glen",
+        "lastName": "Smith"
+    },
+    {
+        "authorId": "authc44e1a",
+        "firstName": "Steven",
+        "lastName": "Gutz"
+    },
+    {
+        "authorId": "authc51c8b",
+        "firstName": "Richard",
+        "lastName": "Siddaway"
+    },
+    {
+        "authorId": "auth09d114",
+        "firstName": "Yvonne",
+        "lastName": "M. Harryman"
+    },
+    {
+        "authorId": "authc4464d",
+        "firstName": "Erik",
+        "lastName": "Hatcher"
+    },
+    {
+        "authorId": "authdc2054",
+        "firstName": "Tim",
+        "lastName": "Hatton"
+    },
+    {
+        "authorId": "auth944fac",
+        "firstName": "Chris",
+        "lastName": "Cunningham"
+    },
+    {
+        "authorId": "auth400cd5",
+        "firstName": "Vikas",
+        "lastName": "Hazrati"
+    },
+    {
+        "authorId": "auth752b04",
+        "firstName": "Stefan",
+        "lastName": "Hepper"
+    },
+    {
+        "authorId": "auth3e06fa",
+        "firstName": "Michael",
+        "lastName": "Shoffner"
+    },
+    {
+        "authorId": "authe6bec5",
+        "firstName": "Grant",
+        "lastName": "S. Ingersoll"
+    },
+    {
+        "authorId": "auth6a7e15",
+        "firstName": "Jocelyn",
+        "lastName": "Harrington"
+    },
+    {
+        "authorId": "authb70e7b",
+        "firstName": "Don",
+        "lastName": "Jones"
+    },
+    {
+        "authorId": "auth4ffe35",
+        "firstName": "Robert",
+        "lastName": "I. Kabacoff"
+    },
+    {
+        "authorId": "auth131b98",
+        "firstName": "Ryan",
+        "lastName": "Breidenbach"
+    },
+    {
+        "authorId": "authe67ce5",
+        "firstName": "Marcin",
+        "lastName": "Kawalerowicz"
+    },
+    {
+        "authorId": "authc4464d",
+        "firstName": "Erik",
+        "lastName": "Hatcher"
+    },
+    {
+        "authorId": "auth0409dc",
+        "firstName": "Dierk",
+        "lastName": "K\u00f6nig"
+    },
+    {
+        "authorId": "auth82052c",
+        "firstName": "Timothy",
+        "lastName": "Binkley-Jones"
+    },
+    {
+        "authorId": "authb680c2",
+        "firstName": "Kenneth",
+        "lastName": "A. Kousen"
+    },
+    {
+        "authorId": "auth6fa95b",
+        "firstName": "Peter",
+        "lastName": "Small"
+    },
+    {
+        "authorId": "authfcf580",
+        "firstName": "Ramnivas",
+        "lastName": "Laddad"
+    },
+    {
+        "authorId": "auth78193b",
+        "firstName": "Chuck",
+        "lastName": "Lam"
+    },
+    {
+        "authorId": "auth9d910c",
+        "firstName": "Amanda",
+        "lastName": "Laucher"
+    },
+    {
+        "authorId": "auth788435",
+        "firstName": "Simon",
+        "lastName": "Nash"
+    },
+    {
+        "authorId": "auth4ead4f",
+        "firstName": "Compiled",
+        "lastName": ""
+    },
+    {
+        "authorId": "auth76ba14",
+        "firstName": "Ted",
+        "lastName": "Neward"
+    },
+    {
+        "authorId": "auth81d6f3",
+        "firstName": "Martin",
+        "lastName": "Evans"
+    },
+    {
+        "authorId": "auth10657f",
+        "firstName": "Brett",
+        "lastName": "Lonsdale"
+    },
+    {
+        "authorId": "auth52e10d",
+        "firstName": "Harold",
+        "lastName": "Lorin"
+    },
+    {
+        "authorId": "auth81b8a1",
+        "firstName": "Steve",
+        "lastName": "Loughran"
+    },
+    {
+        "authorId": "auth9b0de1",
+        "firstName": "Jerome",
+        "lastName": "Louvel"
+    },
+    {
+        "authorId": "auth9b2b78",
+        "firstName": "Bruno",
+        "lastName": "Lowagie"
+    },
+    {
+        "authorId": "auth262031",
+        "firstName": "Daniel",
+        "lastName": "Minoli"
+    },
+    {
+        "authorId": "auth6aa8d4",
+        "firstName": "Jeffrey",
+        "lastName": "Palermo"
+    },
+    {
+        "authorId": "auth01d484",
+        "firstName": "Gary",
+        "lastName": "Gregory"
+    },
+    {
+        "authorId": "authc51c8b",
+        "firstName": "Richard",
+        "lastName": "Siddaway"
+    },
+    {
+        "authorId": "auth3a3688",
+        "firstName": "Joe",
+        "lastName": "Lennon"
+    },
+    {
+        "authorId": "auth262031",
+        "firstName": "Daniel",
+        "lastName": "Minoli"
+    },
+    {
+        "authorId": "auth96216b",
+        "firstName": "Stefano",
+        "lastName": "Mostarda"
+    },
+    {
+        "authorId": "authd68f82",
+        "firstName": "Darren",
+        "lastName": "Neimke"
+    },
+    {
+        "authorId": "authf145e2",
+        "firstName": "Wynn",
+        "lastName": "Netherland"
+    },
+    {
+        "authorId": "auth76ba14",
+        "firstName": "Ted",
+        "lastName": "Neward"
+    },
+    {
+        "authorId": "auth4504e1",
+        "firstName": "Contributions",
+        "lastName": "Nielsen"
+    },
+    {
+        "authorId": "auth4504e1",
+        "firstName": "Contributions",
+        "lastName": "Paul Nielsen"
+    },
+    {
+        "authorId": "authcca17d",
+        "firstName": "Regina",
+        "lastName": "O. Obe"
+    },
+    {
+        "authorId": "authf1cd31",
+        "firstName": "Kevin",
+        "lastName": "O'Malley"
+    },
+    {
+        "authorId": "auth6aa8d4",
+        "firstName": "Jeffrey",
+        "lastName": "Palermo"
+    },
+    {
+        "authorId": "auth94a8e1",
+        "firstName": "Debu",
+        "lastName": "Panda"
+    },
+    {
+        "authorId": "auth204210",
+        "firstName": "Thomas",
+        "lastName": "B. Passin"
+    },
+    {
+        "authorId": "auth4be90e",
+        "firstName": "Bruce",
+        "lastName": "Tate"
+    },
+    {
+        "authorId": "authfbf358",
+        "firstName": "Pete",
+        "lastName": "Brown"
+    },
+    {
+        "authorId": "authf87567",
+        "firstName": "Patrick",
+        "lastName": "Linskey"
+    },
+    {
+        "authorId": "auth82052c",
+        "firstName": "Timothy",
+        "lastName": "Binkley-Jones"
+    },
+    {
+        "authorId": "auth7fb9e5",
+        "firstName": "Tomas",
+        "lastName": "Petricek with Jon Skeet"
+    },
+    {
+        "authorId": "auth6fa95b",
+        "firstName": "Peter",
+        "lastName": "Small"
+    },
+    {
+        "authorId": "auth8bd269",
+        "firstName": "Dhanji",
+        "lastName": "R. Prasanna"
+    },
+    {
+        "authorId": "auth77dcd5",
+        "firstName": "Eric",
+        "lastName": "Pulier and Hugh Taylor"
+    },
+    {
+        "authorId": "auth04f5fd",
+        "firstName": "Oren",
+        "lastName": "Ayende Rahien"
+    },
+    {
+        "authorId": "authf7989b",
+        "firstName": "Noel",
+        "lastName": "Rappin"
+    },
+    {
+        "authorId": "auth93ddb8",
+        "firstName": "Amit",
+        "lastName": "Rathore"
+    },
+    {
+        "authorId": "authd6f373",
+        "firstName": "Trygve",
+        "lastName": "Reenskaug"
+    },
+    {
+        "authorId": "authfedf02",
+        "firstName": "Dagfinn",
+        "lastName": "Marcus Baker"
+    },
+    {
+        "authorId": "auth61409a",
+        "firstName": "John",
+        "lastName": "Mitchell"
+    },
+    {
+        "authorId": "auth23943b",
+        "firstName": "Ronny",
+        "lastName": "Richardson"
+    },
+    {
+        "authorId": "auth45daf6",
+        "firstName": "Evan",
+        "lastName": "Rosen"
+    },
+    {
+        "authorId": "auth3e06fa",
+        "firstName": "Michael",
+        "lastName": "Shoffner"
+    },
+    {
+        "authorId": "auth649bf7",
+        "firstName": "Arnon",
+        "lastName": "Rotem-Gal-Oz"
+    },
+    {
+        "authorId": "auth0842d8",
+        "firstName": "Warren",
+        "lastName": "D. Sande"
+    },
+    {
+        "authorId": "auth633a61",
+        "firstName": "Ashish",
+        "lastName": "Sarin"
+    },
+    {
+        "authorId": "auth64730c",
+        "firstName": "Matthew",
+        "lastName": "Scarpino"
+    },
+    {
+        "authorId": "auth8aae3a",
+        "firstName": "Andrew",
+        "lastName": "Schmidt"
+    },
+    {
+        "authorId": "authb82a9a",
+        "firstName": "Mark",
+        "lastName": "B. Whipple"
+    },
+    {
+        "authorId": "auth024e2f",
+        "firstName": "Iain",
+        "lastName": "Shigeoka"
+    },
+    {
+        "authorId": "authc51c8b",
+        "firstName": "Richard",
+        "lastName": "Siddaway"
+    },
+    {
+        "authorId": "auth4be90e",
+        "firstName": "Bruce",
+        "lastName": "Tate"
+    },
+    {
+        "authorId": "authce0440",
+        "firstName": "Nishant",
+        "lastName": "Sivakumar"
+    },
+    {
+        "authorId": "auth48bc89",
+        "firstName": "Jon",
+        "lastName": "Skeet"
+    },
+    {
+        "authorId": "auth6fa95b",
+        "firstName": "Peter",
+        "lastName": "Small"
+    },
+    {
+        "authorId": "auth17b847",
+        "firstName": "Greg",
+        "lastName": "Wanish"
+    },
+    {
+        "authorId": "auth4be90e",
+        "firstName": "Bruce",
+        "lastName": "Tate"
+    },
+    {
+        "authorId": "auth1dec90",
+        "firstName": "Early",
+        "lastName": "Stephens"
+    },
+    {
+        "authorId": "auth245a58",
+        "firstName": "Ian",
+        "lastName": "W. Stirk"
+    },
+    {
+        "authorId": "auth85b103",
+        "firstName": "Joshua",
+        "lastName": "Noble"
+    },
+    {
+        "authorId": "auth861a74",
+        "firstName": "Benjamin",
+        "lastName": "G. Sullins"
+    },
+    {
+        "authorId": "authd060a1",
+        "firstName": "Petar",
+        "lastName": "Tahchiev"
+    },
+    {
+        "authorId": "auth4be90e",
+        "firstName": "Bruce",
+        "lastName": "Tate"
+    },
+    {
+        "authorId": "auth54bd05",
+        "firstName": "Brandon",
+        "lastName": "Trebitowski"
+    },
+    {
+        "authorId": "auth2ecd21",
+        "firstName": "JD",
+        "lastName": "\"Illiad\" Frazer"
+    },
+    {
+        "authorId": "authb46489",
+        "firstName": "Craig",
+        "lastName": "Walls"
+    },
+    {
+        "authorId": "authff572b",
+        "firstName": "Willie",
+        "lastName": "Wheeler with Joshua White"
+    },
+    {
+        "authorId": "auth9ec750",
+        "firstName": "Phil",
+        "lastName": "Wicklund"
+    },
+    {
+        "authorId": "authe81b72",
+        "firstName": "Wictor",
+        "lastName": "Wil\u00e9n"
+    },
+    {
+        "authorId": "auth20f1ae",
+        "firstName": "Anthony",
+        "lastName": "Williams"
+    },
+    {
+        "authorId": "auth0ac42e",
+        "firstName": "Gabe",
+        "lastName": "Zichermann"
+    },
+    {
+        "authorId": "auth81d6f3",
+        "firstName": "Martin",
+        "lastName": "Evans"
+    },
+    {
+        "authorId": "auth1b83d5",
+        "firstName": "Mike",
+        "lastName": "Cantelon"
+    },
+    {
+        "authorId": "auth98021f",
+        "firstName": "Etzion.Jpg",
+        "lastName": ""
+    },
+    {
+        "authorId": "auth13554d",
+        "firstName": "Evans",
+        "lastName": "John"
+    },
+    {
+        "authorId": "authf5e3b0",
+        "firstName": "Fairbairn",
+        "lastName": "Mark"
+    },
+    {
+        "authorId": "auth12a194",
+        "firstName": "Feldman",
+        "lastName": "Telman"
+    },
+    {
+        "authorId": "auth8408b3",
+        "firstName": "Fields3",
+        "lastName": ""
+    },
+    {
+        "authorId": "auth430fd2",
+        "firstName": "Fisher",
+        "lastName": ""
+    },
+    {
+        "authorId": "auth1241eb",
+        "firstName": "Fogus",
+        "lastName": "Joe"
+    },
+    {
+        "authorId": "auth0ae9f0",
+        "firstName": "Friedman",
+        "lastName": "Hill"
+    },
+    {
+        "authorId": "auth1a2d0f",
+        "firstName": "Fritz",
+        "lastName": "Fisher"
+    },
+    {
+        "authorId": "auth909e46",
+        "firstName": "Gallardo.Jpg",
+        "lastName": ""
+    },
+    {
+        "authorId": "auth217f3b",
+        "firstName": "Garcia",
+        "lastName": "Mark"
+    },
+    {
+        "authorId": "auth5c6b6e",
+        "firstName": "Garcia",
+        "lastName": "Olio"
+    },
+    {
+        "authorId": "auth840dda",
+        "firstName": "Ghosh",
+        "lastName": "Ban"
+    }
+]

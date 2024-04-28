@@ -1,0 +1,50 @@
+#search-form {
+    display: grid;
+    background: #f9f9f9;
+    border: 1px solid #c9e6ff;
+    margin: 1em auto 0 auto;
+    max-width: 90%;
+    padding: 1em;
+}
+
+#book-editor-form {
+    display: grid;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c9e6ff;
+    margin: 1em auto 0 auto;
+    max-width: 900px;
+    padding: 1em;
+    grid-gap: 2em;
+}
+
+#book-editor-form .form-group {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2em;
+}
+
+@media screen and (max-width: 600px) {
+    #book-editor-form .form-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+#book-editor-form .form-control {
+    flex: 0.7;
+    justify-content: right;
+}
+
+input {
+    min-height: 2em;
+}
+
+input.btn {
+    background-color: #aa52e6;
+    color: #ffffff;
+    grid-column: 2/3;
+}
+
+label {
+    text-align: left;
+}

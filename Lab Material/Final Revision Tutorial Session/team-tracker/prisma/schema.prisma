@@ -24,6 +24,6 @@ model Player {
   position     String
   jerseyNumber Int
 
+  Team   Team   @relation(fields: [teamId], references: [id], onDelete: Cascade, onUpdate: Cascade)
   teamId String
-  Team   Team   @relation(fields: [teamId], references: [id])
 }

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "366e54e7-9bea-4a4b-9499-3de60e7727c8",
+        "name": "Arsenal",
+        "city": "East Amanda",
+        "division": "Premier League"
+    },
+    {
+        "id": "10b72520-7dd0-483c-9a1a-764128b53549",
+        "name": "Aston Villa",
+        "city": "Michaelhaven",
+        "division": "Premier League"
+    },
+    {
+        "id": "ecc3ad0d-6998-48c5-9bf4-ffd3b5507f68",
+        "name": "Brentford",
+        "city": "Debrafurt",
+        "division": "Premier League"
+    },
+    {
+        "id": "b4d55fb2-49d6-4e90-ab51-0f5d126cb268",
+        "name": "Brighton & Hove Albion",
+        "city": "Port Shannontown",
+        "division": "Championship"
+    },
+    {
+        "id": "5a00456f-289c-4a43-a5be-114a8ba23017",
+        "name": "Chelsea",
+        "city": "Ashleyburgh",
+        "division": "Premier League"
+    }
+]

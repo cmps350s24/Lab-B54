@@ -1,0 +1,26 @@
+.teamCard {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.teamCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.teamName {
+  color: #0072ce;
+  /* A shade of blue */
+  font-weight: bold;
+}
+
+.teamInfo {
+  color: grey;
+}

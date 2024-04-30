@@ -1,0 +1,142 @@
+[
+    {
+        "id": "afda1352-a59c-475a-8eb4-f76e2a8635b5",
+        "name": "Jacob Rose",
+        "position": "Midfielder",
+        "jerseyNumber": 55,
+        "teamId": "366e54e7-9bea-4a4b-9499-3de60e7727c8"
+    },
+    {
+        "id": "00793786-8899-4be0-b7cc-6f530d2f9ddd",
+        "name": "Carl Cole",
+        "position": "Forward",
+        "jerseyNumber": 1,
+        "teamId": "ecc3ad0d-6998-48c5-9bf4-ffd3b5507f68"
+    },
+    {
+        "id": "6bd8873f-a557-4624-9825-1e5e311e5f72",
+        "name": "James Jones",
+        "position": "Midfielder",
+        "jerseyNumber": 47,
+        "teamId": "5a00456f-289c-4a43-a5be-114a8ba23017"
+    },
+    {
+        "id": "117da38b-9e0b-480e-a471-58daf19969a2",
+        "name": "Devin Pham",
+        "position": "Forward",
+        "jerseyNumber": 65,
+        "teamId": "ecc3ad0d-6998-48c5-9bf4-ffd3b5507f68"
+    },
+    {
+        "id": "3bb23958-16d6-47fa-9293-dfa53e56b756",
+        "name": "Theresa Garrett",
+        "position": "Midfielder",
+        "jerseyNumber": 28,
+        "teamId": "ecc3ad0d-6998-48c5-9bf4-ffd3b5507f68"
+    },
+    {
+        "id": "beed2952-55ff-46ac-a6fc-60d52bfdd90c",
+        "name": "Laura Castro",
+        "position": "Goalkeeper",
+        "jerseyNumber": 1,
+        "teamId": "b4d55fb2-49d6-4e90-ab51-0f5d126cb268"
+    },
+    {
+        "id": "c18f21a2-eb4e-40a4-b7bd-f1ca456dcd8a",
+        "name": "Kimberly Santana",
+        "position": "Defender",
+        "jerseyNumber": 70,
+        "teamId": "366e54e7-9bea-4a4b-9499-3de60e7727c8"
+    },
+    {
+        "id": "e1dd9b6b-eb4b-4901-b5b2-47cfa7d68e5a",
+        "name": "Terry Pitts",
+        "position": "Forward",
+        "jerseyNumber": 76,
+        "teamId": "366e54e7-9bea-4a4b-9499-3de60e7727c8"
+    },
+    {
+        "id": "ff122140-9679-4710-b71c-4484c797ff57",
+        "name": "Jackson Ryan MD",
+        "position": "Goalkeeper",
+        "jerseyNumber": 78,
+        "teamId": "5a00456f-289c-4a43-a5be-114a8ba23017"
+    },
+    {
+        "id": "40eb2a7a-ad23-4888-80b0-e80c73ee546c",
+        "name": "Erica Montgomery",
+        "position": "Defender",
+        "jerseyNumber": 32,
+        "teamId": "5a00456f-289c-4a43-a5be-114a8ba23017"
+    },
+    {
+        "id": "8696af55-5928-4069-b4c4-a7bc6dd67b6d",
+        "name": "Joann Wong",
+        "position": "Midfielder",
+        "jerseyNumber": 59,
+        "teamId": "366e54e7-9bea-4a4b-9499-3de60e7727c8"
+    },
+    {
+        "id": "19dd4cbd-234f-4df2-97bc-e328a01c479d",
+        "name": "Rhonda Wright",
+        "position": "Midfielder",
+        "jerseyNumber": 61,
+        "teamId": "10b72520-7dd0-483c-9a1a-764128b53549"
+    },
+    {
+        "id": "a0c73d44-f8e4-47be-9964-251e8c785d81",
+        "name": "Matthew Castro",
+        "position": "Defender",
+        "jerseyNumber": 96,
+        "teamId": "10b72520-7dd0-483c-9a1a-764128b53549"
+    },
+    {
+        "id": "530d1044-e295-474f-a2cf-aac96994a757",
+        "name": "Todd Hatfield",
+        "position": "Midfielder",
+        "jerseyNumber": 85,
+        "teamId": "366e54e7-9bea-4a4b-9499-3de60e7727c8"
+    },
+    {
+        "id": "993d8ce5-f522-44c8-9dab-0ad899aa1efc",
+        "name": "Christopher Suarez",
+        "position": "Defender",
+        "jerseyNumber": 52,
+        "teamId": "10b72520-7dd0-483c-9a1a-764128b53549"
+    },
+    {
+        "id": "575adff6-d034-4314-82af-183cb063489c",
+        "name": "Mia Owens",
+        "position": "Forward",
+        "jerseyNumber": 35,
+        "teamId": "b4d55fb2-49d6-4e90-ab51-0f5d126cb268"
+    },
+    {
+        "id": "fadface1-d82a-4f67-abef-fd3589813cfd",
+        "name": "John White",
+        "position": "Defender",
+        "jerseyNumber": 47,
+        "teamId": "ecc3ad0d-6998-48c5-9bf4-ffd3b5507f68"
+    },
+    {
+        "id": "81035f74-edb6-4d86-969d-70cacbc24e07",
+        "name": "Caitlyn Romero",
+        "position": "Forward",
+        "jerseyNumber": 77,
+        "teamId": "5a00456f-289c-4a43-a5be-114a8ba23017"
+    },
+    {
+        "id": "e6336bab-88e1-4e1d-9e07-2f8c8f1ad0d2",
+        "name": "Jeremy Case",
+        "position": "Defender",
+        "jerseyNumber": 25,
+        "teamId": "ecc3ad0d-6998-48c5-9bf4-ffd3b5507f68"
+    },
+    {
+        "id": "0eedf5f5-ded9-41b7-8fe4-aaffc606d949",
+        "name": "John Banks",
+        "position": "Forward",
+        "jerseyNumber": 20,
+        "teamId": "b4d55fb2-49d6-4e90-ab51-0f5d126cb268"
+    }
+]

@@ -140,11 +140,6 @@
         "lastName": "Jones"
     },
     {
-        "authorId": "auth4ffe35",
-        "firstName": "Robert",
-        "lastName": "I. Kabacoff"
-    },
-    {
         "authorId": "auth131b98",
         "firstName": "Ryan",
         "lastName": "Breidenbach"
@@ -153,11 +148,6 @@
         "authorId": "authe67ce5",
         "firstName": "Marcin",
         "lastName": "Kawalerowicz"
-    },
-    {
-        "authorId": "authc4464d",
-        "firstName": "Erik",
-        "lastName": "Hatcher"
     },
     {
         "authorId": "auth0409dc",
@@ -255,19 +245,9 @@
         "lastName": "Gregory"
     },
     {
-        "authorId": "authc51c8b",
-        "firstName": "Richard",
-        "lastName": "Siddaway"
-    },
-    {
         "authorId": "auth3a3688",
         "firstName": "Joe",
         "lastName": "Lennon"
-    },
-    {
-        "authorId": "auth262031",
-        "firstName": "Daniel",
-        "lastName": "Minoli"
     },
     {
         "authorId": "auth96216b",
@@ -285,19 +265,9 @@
         "lastName": "Netherland"
     },
     {
-        "authorId": "auth76ba14",
-        "firstName": "Ted",
-        "lastName": "Neward"
-    },
-    {
         "authorId": "auth4504e1",
         "firstName": "Contributions",
         "lastName": "Nielsen"
-    },
-    {
-        "authorId": "auth4504e1",
-        "firstName": "Contributions",
-        "lastName": "Paul Nielsen"
     },
     {
         "authorId": "authcca17d",
@@ -308,11 +278,6 @@
         "authorId": "authf1cd31",
         "firstName": "Kevin",
         "lastName": "O'Malley"
-    },
-    {
-        "authorId": "auth6aa8d4",
-        "firstName": "Jeffrey",
-        "lastName": "Palermo"
     },
     {
         "authorId": "auth94a8e1",
@@ -340,19 +305,9 @@
         "lastName": "Linskey"
     },
     {
-        "authorId": "auth82052c",
-        "firstName": "Timothy",
-        "lastName": "Binkley-Jones"
-    },
-    {
         "authorId": "auth7fb9e5",
         "firstName": "Tomas",
         "lastName": "Petricek with Jon Skeet"
-    },
-    {
-        "authorId": "auth6fa95b",
-        "firstName": "Peter",
-        "lastName": "Small"
     },
     {
         "authorId": "auth8bd269",
@@ -405,11 +360,6 @@
         "lastName": "Rosen"
     },
     {
-        "authorId": "auth3e06fa",
-        "firstName": "Michael",
-        "lastName": "Shoffner"
-    },
-    {
         "authorId": "auth649bf7",
         "firstName": "Arnon",
         "lastName": "Rotem-Gal-Oz"
@@ -445,16 +395,6 @@
         "lastName": "Shigeoka"
     },
     {
-        "authorId": "authc51c8b",
-        "firstName": "Richard",
-        "lastName": "Siddaway"
-    },
-    {
-        "authorId": "auth4be90e",
-        "firstName": "Bruce",
-        "lastName": "Tate"
-    },
-    {
         "authorId": "authce0440",
         "firstName": "Nishant",
         "lastName": "Sivakumar"
@@ -465,19 +405,9 @@
         "lastName": "Skeet"
     },
     {
-        "authorId": "auth6fa95b",
-        "firstName": "Peter",
-        "lastName": "Small"
-    },
-    {
         "authorId": "auth17b847",
         "firstName": "Greg",
         "lastName": "Wanish"
-    },
-    {
-        "authorId": "auth4be90e",
-        "firstName": "Bruce",
-        "lastName": "Tate"
     },
     {
         "authorId": "auth1dec90",
@@ -503,11 +433,6 @@
         "authorId": "authd060a1",
         "firstName": "Petar",
         "lastName": "Tahchiev"
-    },
-    {
-        "authorId": "auth4be90e",
-        "firstName": "Bruce",
-        "lastName": "Tate"
     },
     {
         "authorId": "auth54bd05",
@@ -540,19 +465,9 @@
         "lastName": "Wil\u00e9n"
     },
     {
-        "authorId": "auth20f1ae",
-        "firstName": "Anthony",
-        "lastName": "Williams"
-    },
-    {
         "authorId": "auth0ac42e",
         "firstName": "Gabe",
         "lastName": "Zichermann"
-    },
-    {
-        "authorId": "auth81d6f3",
-        "firstName": "Martin",
-        "lastName": "Evans"
     },
     {
         "authorId": "auth1b83d5",
